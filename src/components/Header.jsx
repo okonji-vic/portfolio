@@ -9,22 +9,46 @@ function Header() {
       <nav>
         <ul className="nav-links">
           <li>
-            <Link to="hero" smooth={true} duration={500}>
+            <Link
+              to="hero"
+              smooth={true}
+              duration={500}
+              activeClass="active"
+              spy={true}
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="about" smooth={true} duration={500}>
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              activeClass="active"
+              spy={true}
+            >
               About
             </Link>
           </li>
           <li>
-            <Link to="projects" smooth={true} duration={500}>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              activeClass="active"
+              spy={true}
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500}>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              activeClass="active"
+              spy={true}
+            >
               Contact
             </Link>
           </li>

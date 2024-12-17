@@ -17,18 +17,28 @@
   
   .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     list-style: none;
   }
   
   .nav-links a {
     text-decoration: none;
     color: #fff;
-    transition: color 0.3s;
+    transition: color 5.3s ease;
   }
   
   .nav-links a:hover {
     color: #64ffda;
+    cursor: pointer;
+  }
+
+  .nav-links a.active {
+    color: #64ffda; /* Highlight active link */
+    background-color: black;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 5.5s ease;
   }
 
   @media (max-width: 768px) {
