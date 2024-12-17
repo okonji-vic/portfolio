@@ -17,7 +17,7 @@ function About() {
             </p>
           </div>
           <div className="about-photo">
-            <img src="src/assets/IMG-20240817-WA0002.jpg" alt="Okonji Emeka" />
+            <img src="dist/assets/IMG-20240817-WA0002-CQ35TvDV.jpg" alt="Okonji Emeka" />
           </div>
         </div>
       </div>
