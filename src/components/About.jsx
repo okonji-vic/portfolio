@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import profileImage from "../assets/IMG-20240817-WA0002.jpg";
 
 function About() {
   return (
@@ -17,7 +18,7 @@ function About() {
             </p>
           </div>
           <div className="about-photo">
-            <img src="./src/assets/IMG-20240817-WA0002.jpg" alt="Okonji Emeka" />
+            <img src={profileImage} alt="Okonji Emeka" />
           </div>
         </div>
       </div>
