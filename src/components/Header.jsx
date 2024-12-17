@@ -1,11 +1,12 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-scroll";
+import icon from "../assets/39839827-2bb3-465e-bc4b-b68cdabb3d3c.webp";
 
 function Header() {
   return (
     <header className="header">
-      <div className="logo">Okonji Emeka</div>
+        <img src={icon} alt="logo" className="header-img" />
       <nav>
         <ul className="nav-links">
           <li>
