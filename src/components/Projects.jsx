@@ -28,11 +28,18 @@ function Projects() {
       description: "A basketball game counter app built with React.",
       link: "https://counter-app88.netlify.app/",
     },
+    
+    {
+      title: "A Discount Calculator",
+      description: "A Simple Discount Calculator built with React.",
+      link: "https://discount-calculator01.netlify.app/",
+    },
     {
       title: "E-commerce Website",
       description: "An e-commerce website built with React and Commerce.js",
       link: "#",
     },
+
   ];
 
   return (

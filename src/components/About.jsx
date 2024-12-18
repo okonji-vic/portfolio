@@ -11,7 +11,7 @@ function About() {
           <div className="about-text">
             <p>
               Hi! I'm <strong>Okonji Emeka Nicholas</strong>, a Frontend Developer. 
-              I love building interactive, user-friendly websites/applications and bringing ideas to life through code.
+              I love building interactive, user-friendly web applications and bringing ideas to life through code.
             </p>
             <p>
               With a diploma in Frontend Engineering at AltSchool Africa, I blend analytical thinking with creative problem-solving.
