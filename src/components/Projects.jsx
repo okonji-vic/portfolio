@@ -35,10 +35,16 @@ function Projects() {
       link: "https://discount-calculator01.netlify.app/",
     },
     {
+      title: "Blog Website",
+      description: "A blog website built with React and Contentful",
+      link: "https://blog-post01.netlify.app/",
+    },
+    {
       title: "E-commerce Website",
       description: "An e-commerce website built with React and Commerce.js",
       link: "#",
     },
+
 
   ];
 
