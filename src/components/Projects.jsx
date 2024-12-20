@@ -40,10 +40,16 @@ function Projects() {
       link: "https://blog-post01.netlify.app/",
     },
     {
+      title: "Advice Generator",
+      description: "An advice generator app that fetches advice from an API and displays it.",
+      link: "https://advice01.netlify.app/",
+    },
+    {
       title: "E-commerce Website",
       description: "An e-commerce website built with React and Commerce.js",
       link: "#",
     },
+    
 
 
   ];
