@@ -14,7 +14,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
-      <footer style={{paddingBottom:'50px'}}>
+      <footer style={{paddingBottom:'230px'}}>
         <p>&copy; 2024 by <a href="/">Emeka</a></p>
       </footer>
     </div>

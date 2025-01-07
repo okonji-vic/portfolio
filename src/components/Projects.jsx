@@ -52,11 +52,11 @@ function Projects() {
         "An advice generator app that fetches advice from an API and displays it.",
       link: "https://advice01.netlify.app/",
     },
-    {
-      title: "E-commerce Website",
-      description: "An e-commerce website built with React and Commerce.js",
-      link: "#",
-    },
+    // {
+    //   title: "E-commerce Website",
+    //   description: "An e-commerce website built with React and Commerce.js",
+    //   link: "#",
+    // },
   ];
 
   return (
@@ -67,6 +67,18 @@ function Projects() {
           <div className="project-card" key={index}>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
+            <iframe
+              src={project.link} // Replace with your live pictures URL
+                title="Live Pictures"
+                width="100%"
+                height="350px"
+                style={{
+                    border: "2px solid #ccc",
+                    borderRadius: "10px",
+                    boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.2)",
+                }}
+                allowFullScreen
+            />
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               View Project
             </a>
