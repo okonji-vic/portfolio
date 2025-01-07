@@ -9,6 +9,11 @@ function Projects() {
       link: "#",
     },
     {
+      title: "Pizza Ordering App",
+      description: "A pizza ordering app built with React. This is an app that allows users to order pizza online.",
+      link: "https://pizza-menu-1.netlify.app/",
+    },
+    {
       title: "A todo App",
       description: "A todo application built with React",
       link: "https://todoist02.netlify.app/",
