@@ -10,18 +10,25 @@ function Projects() {
     },
     {
       title: "Pizza Ordering App",
-      description: "A pizza ordering app built with React. This is an app that allows users to order pizza online.",
+      description:
+        "A pizza ordering app built with React. This is an app that allows users to order pizza online.",
       link: "https://pizza-menu-1.netlify.app/",
     },
     {
       title: "A todo App",
-      description: "A todo application built with React",
+      description:
+        "A todo application built with React. this is a simple todo app that allows users to add, delete and mark todos as completed or pending. It helps in daily task management.",
       link: "https://todoist02.netlify.app/",
     },
     {
       title: "A github user search app",
       description: "A github user search app built with React.",
       link: "https://repo02.netlify.app/",
+    },
+    {
+      title: "Blog Website",
+      description: "A blog website built with React and Contentful",
+      link: "https://blog-post01.netlify.app/",
     },
     {
       title: "A calculator",
@@ -33,20 +40,16 @@ function Projects() {
       description: "A basketball game counter app built with React.",
       link: "https://counter-app88.netlify.app/",
     },
-    
+
     {
       title: "A Discount Calculator",
       description: "A Simple Discount Calculator built with React.",
       link: "https://discount-calculator01.netlify.app/",
     },
     {
-      title: "Blog Website",
-      description: "A blog website built with React and Contentful",
-      link: "https://blog-post01.netlify.app/",
-    },
-    {
       title: "Advice Generator",
-      description: "An advice generator app that fetches advice from an API and displays it.",
+      description:
+        "An advice generator app that fetches advice from an API and displays it.",
       link: "https://advice01.netlify.app/",
     },
     {
@@ -54,9 +57,6 @@ function Projects() {
       description: "An e-commerce website built with React and Commerce.js",
       link: "#",
     },
-    
-
-
   ];
 
   return (
