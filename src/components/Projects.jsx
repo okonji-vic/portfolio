@@ -62,13 +62,21 @@ function Projects() {
 
   return (
     <section id="projects" className="projects">
-      <h2 data-aos="fade-up">My Projects</h2>
+      <h2
+        data-aos="fade-up"
+      >My Projects</h2>
       <div className="project-grid">
         {projectList.map((project, index) => (
-          <div className="project-card" key={index} data-aos="flip-left" 
-          data-aos-delay={index * 200} >
-            <h3 data-aos="fade-right">{project.title}</h3>
-            <p data-aos="fade-left">{project.description}</p>
+          <div className="project-card" key={index}
+            data-aos="flip-left" 
+            data-aos-delay={index * 200}
+          >
+            <h3
+              data-aos="fade-right"
+            >{project.title}</h3>
+            <p
+              data-aos="fade-left"
+            >{project.description}</p>
             <iframe
               src={project.link} // Replace with your live pictures URL
                 title="Live Pictures"
@@ -82,8 +90,10 @@ function Projects() {
               allowFullScreen
               data-aos="zoom-in"
             />
-            <a href={project.link} target="_blank" rel="noopener noreferrer" data-aos="fade-up"
-              data-aos-delay="500">
+            <a href={project.link} target="_blank" rel="noopener noreferrer"
+              data-aos="fade-up"
+            data-aos-delay="500"
+            >
               View Project
             </a>
           </div>
