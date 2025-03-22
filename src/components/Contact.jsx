@@ -65,42 +65,48 @@ function Contact() {
     };
     return (
       <section id="contact" className="contact">
-            <h2>Contact Me</h2>
-      <p>Have a question or want to work together? Feel free to reach out!</p>
+            <h2 data-aos="fade-up">Contact Me</h2>
+      <p data-aos="fade-up">Have a question or want to work together? Feel free to reach out!</p>
+      <form className="contact-form" onSubmit={handleSubmit} data-aos="fade-up" data-aos-delay="400">
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          className={`contact-input ${errors.name ? "error-border" : ""}`}
+          value={formData.name}
+          onChange={handleChange}
+          data-aos="fade-right"
+        />
+        {errors.name && <p className="error-message">{errors.name}</p>}
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          className={`contact-input ${errors.email ? "error-border" : ""}`}
+          value={formData.email}
+          onChange={handleChange}
+          data-aos="fade-left"
+        />
+        {errors.email && <p className="error-message">{errors.email}</p>}
+
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          className={`contact-textarea ${errors.message ? "error-border" : ""}`}
+          value={formData.message}
+          onChange={handleChange}
+          data-aos="zoom-in"
+        ></textarea>
+        {errors.message && <p className="error-message">{errors.message}</p>}
+
+        <button type="submit" className="contact-button" data-aos="flip-up" data-aos-delay="600">
+          Send Message
+        </button>
+
+        {success && <p className="success-message">{success}</p>}
+      </form>
             
-            <form className="contact-form" onSubmit={handleSubmit}>
-                
-                <input
-                    type="text"
-                    name="name"
-                    placeholder="Your Name"
-                    className={`contact-input ${errors.name ? "error-border" : ""}`}
-                    value={formData.name}
-                    onChange={handleChange}
-                />
-                {errors.name && <p className="error-message">{errors.name}</p>}
-                <input
-                    type="email"
-                    name="email"
-                    placeholder="Your Email"
-                    className={`contact-input ${errors.email ? "error-border" : ""}`}
-                    value={formData.email}
-                    onChange={handleChange}
-                />
-                {errors.email && <p className="error-message">{errors.email}</p>}
-                <textarea
-                    name="message"
-                    placeholder="Your Message"
-                    className={`contact-textarea ${errors.message ? "error-border" : ""}`}
-                    value={formData.message}
-                    onChange={handleChange}
-                ></textarea>
-                {errors.message && <p className="error-message">{errors.message}</p>}
-                <button type="submit" className="contact-button">
-                    Send Message
-                </button>
-                {success && <p className="success-message">{success}</p>}
-            </form>
         </section>
     );
 }

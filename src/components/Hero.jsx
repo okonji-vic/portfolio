@@ -13,9 +13,9 @@ function Hero() {
     >
 
     
-      <div className="hero-content">
+      <div className="hero-content" data-aos="fade-up">
         <h1>Hello, I'm <span>Okonji Emeka</span></h1>
-        <p>Frontend Developer | Building seamless web experiences</p>
+        <p data-aos="fade-up" data-aos-delay="300">Frontend Developer | Building seamless web experiences</p>
         <a href="#projects" className="cta-button">View My Work</a>
       </div>
       </motion.section>

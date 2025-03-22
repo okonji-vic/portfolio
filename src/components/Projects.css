@@ -12,7 +12,8 @@
   
   .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
   
@@ -44,5 +45,14 @@
     text-decoration: none;
     font-weight: bold;
   }
+
+  @media screen and (max-width: 768px) {
+    .project-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
+  
 
   
