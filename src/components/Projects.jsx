@@ -3,10 +3,18 @@ import "./Projects.css";
 
 function Projects() {
   const projectList = [
+  
+  
     {
       title: "An NFT Marketplace Application",
       description: "An NFT Marketplace Desktop Application built with React and typescript. Documentation is available on the project's github repository.",
       link: "https://nft-marketplace-001.netlify.app/",
+    },
+    {
+      title: "A todo App",
+      description:
+        "A todo application built with React and typescript. this is a simple todo app that allows users to add, delete and mark todos as completed or pending. It helps in daily task management, has authentication, calender etc.",
+      link: "https://cil-todo.netlify.app/",
     },
     {
       title: "Pizza Ordering App",
@@ -34,12 +42,7 @@ function Projects() {
       description: "A blog website built with React and Contentful",
       link: "https://blog-post01.netlify.app/",
     },
-    {
-      title: "A todo App",
-      description:
-        "A todo application built with React. this is a simple todo app that allows users to add, delete and mark todos as completed or pending. It helps in daily task management.",
-      link: "https://todoist02.netlify.app/",
-    },
+    
     
 
     // {
