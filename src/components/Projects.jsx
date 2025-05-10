@@ -11,9 +11,9 @@ function Projects() {
       link: "https://nft-marketplace-001.netlify.app/",
     },
     {
-      title: "A todo App",
+      title: "Task Management Application",
       description:
-        "A todo application built with React and typescript. this is a simple todo app that allows users to add, delete and mark todos as completed or pending. It helps in daily task management, has authentication, calender etc.",
+        "Task Management application built with React and typescript. this is a simple todo app that allows users to add, delete and mark todos as completed or pending. It helps in daily task management, has authentication, calender etc.",
       link: "https://cil-todo.netlify.app/",
     },
     {
