@@ -11,6 +11,11 @@ function Projects() {
       link: "https://nft-marketplace-001.netlify.app/",
     },
     {
+      title: "Company Information Website",
+      description: "A company information website built with React. This is a simple website that allows users to view company information, services, and contact details.",
+      link: "https://gheli.netlify.app/",
+    },
+    {
       title: "Task Management Application",
       description:
         "Task Management application built with React and typescript. this is a simple todo app that allows users to add, delete and mark todos as completed or pending. It helps in daily task management, has authentication, calender etc.",
