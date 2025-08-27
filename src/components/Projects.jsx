@@ -16,7 +16,7 @@ function Projects() {
     {
       title: "Task Management Application",
       description:
-        "Task Management application built with React and typescript. this is a simple todo app that allows users to add, delete and mark todos as completed or pending. It helps in daily task management, has authentication, calender etc.",
+        "Task Management application built with React, typescript and microsoft fluentUI. this is a simple todo app that allows users to add, delete and mark todos as completed or pending. It helps in daily task management, has authentication, calender etc.",
       link: "https://cil-todo.netlify.app/",
     },
     {
