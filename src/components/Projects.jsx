@@ -3,16 +3,14 @@ import "./Projects.css";
 
 function Projects() {
   const projectList = [
-  
-  
     {
-      title: "An NFT Marketplace Application",
-      description: "An NFT Marketplace Desktop Application built with React and typescript. Documentation is available on the project's github repository.",
-      link: "https://nft-marketplace-001.netlify.app/",
+      title: "Yard(A Real Estate Application)",
+      description: "A real estate application built with React, typescript, nextjs, material-ui, node.js, express and mongodb. This application connects tenants with landlords, with the aim of eliminating middlemen AKA agents",
+      link: "https://yard-frontend-nu.vercel.app/",
     },
     {
       title: "Company Information Website",
-      description: "A company information website built with React. This is a simple website that allows users to view company information, services, and contact details.",
+      description: "A company information website built with React. This is a simple website for gheli technologies that allows users to view company information, services, and contact details.",
       link: "https://gheli.netlify.app/",
     },
     {
@@ -20,6 +18,11 @@ function Projects() {
       description:
         "Task Management application built with React and typescript. this is a simple todo app that allows users to add, delete and mark todos as completed or pending. It helps in daily task management, has authentication, calender etc.",
       link: "https://cil-todo.netlify.app/",
+    },
+    {
+      title: "An NFT Marketplace Application",
+      description: "An NFT Marketplace Desktop Application built with React and typescript. Documentation is available on the project's github repository.",
+      link: "https://nft-marketplace-001.netlify.app/",
     },
     {
       title: "Pizza Ordering App",
